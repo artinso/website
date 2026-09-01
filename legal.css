@@ -1,0 +1,17 @@
+:root {
+  --bg: #0a0e16; --line: rgba(152,170,204,0.13);
+  --text: #e9edf5; --muted: #94a1b6;
+  --accent: #2ed490; --accent2: #8af0c6;
+}
+body { margin: 0; background: var(--bg); color: var(--text); font-family: Inter, "Helvetica Neue", system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { color: var(--accent2); }
+.wrap { max-width: 760px; margin: 0 auto; padding: 48px 24px 80px; }
+.back { display: inline-flex; align-items: center; gap: 8px; font-size: 14px; color: var(--muted); margin-bottom: 40px; }
+.back:hover { color: var(--text); }
+h1 { font-family: "Space Grotesk", Inter, sans-serif; font-weight: 600; font-size: clamp(28px, 5vw, 38px); letter-spacing: -0.02em; margin: 0 0 8px; }
+.updated { font-size: 13px; color: var(--muted); margin: 0 0 36px; }
+h2 { font-family: "Space Grotesk", Inter, sans-serif; font-weight: 600; font-size: 19px; letter-spacing: -0.01em; margin: 32px 0 10px; }
+p, li { font-size: 15px; line-height: 1.7; color: var(--muted); }
+p strong { color: var(--text); }
+footer { border-top: 1px solid var(--line); margin-top: 56px; padding-top: 24px; font-size: 13px; color: var(--muted); }
